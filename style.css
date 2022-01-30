@@ -1,0 +1,44 @@
+body
+{
+	border-style: groove;
+	border-width: 20px;
+	border-color: lightcoral;
+	border-width: 100%;
+	background-color: lightblue; 
+	font-family: Verdana;
+	font-size: 32px;
+	color: black;
+}
+.img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: 300px;
+	border-style: dotted;
+}
+.gif{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	text-align: center;
+}
+/* Nieodwiedzony link */
+a:link
+{
+	color: yellow;
+}
+
+/* Odwiedzony link */
+a:visited
+{
+	color:yellow;
+}
+
+/* Link po najechaniu kursorem */
+a:hover
+{
+	color: purple;
+}
